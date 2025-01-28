@@ -1,0 +1,163 @@
+/* General */
+body {
+    background-color: rgba(200, 200, 200, 0.9);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado */
+header {
+    background-color: rgb(234, 8, 8);
+    color: rgb(6, 0, 0);
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
+
+header :hover {
+     color: rgb(240, 248, 6);
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Menú de navegación */
+nav {
+    background-color: brown;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(6, 0, 0);
+    text-decoration: none;
+    border-radius: 10;
+    padding: 10px 15px;
+    display: block;
+}
+
+nav ul li a:hover {
+    color: rgb(240, 248, 6);
+}
+
+/* Artículo */
+article {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(241, 245, 4);
+}
+
+article h2 {
+    background-color: rgb(241, 245, 4); 
+    padding: 10px;
+    margin: 0 0 10px 0;
+}
+
+article p {
+    font-size: 1.2em;
+    margin: 20px 20px 10px 40px;
+    text-align: left;  
+    text-indent: -2em; /* Ajusta este valor al ancho de tu fecha */
+    padding-left: 2em; /* Debe coincidir con el valor absoluto de text-indent */
+}
+  
+  span.date {
+    display: inline-block;
+    width: 1em; /* Ajusta este valor al ancho de tu fecha */
+  }
+      
+
+/* Pie de página */
+footer {
+    background-color: rgb(234, 8, 8);
+    color: rgb(6, 0, 0);
+    text-align: justify;
+    padding: 20px;
+    width: 80%;
+    margin: 280px 10px auto 150px;
+    border-radius: 25px;
+    a:link {
+        color: rgb(103, 249, 6);
+        text-decoration: none;
+    }
+    
+    a:visited {
+        color: rgb(253, 249, 4);
+        text-decoration: none;
+    }
+}
+
+.titulo {
+    text-align: center; /* Centra el texto */
+    background-color: rgb(234, 8, 8); /* Color de fondo rojo */
+    color: rgb(6, 0, 0); /* Color de texto negro para contraste */
+    padding: 10px; /* Espacio alrededor del texto */
+    margin: 0; /* Elimina los márgenes por defecto */
+}
+
+.titulo:hover {
+    color: rgb(240, 248, 6);
+}
+
+.galeria {
+    align-content: center;
+    display: flex; /* Utiliza flexbox para alinear las imágenes horizontalmente */
+    justify-content: space-around; /* Distribuye el espacio uniformemente entre las imágenes */
+    margin: 30px 30px;
+}
+.galeria img {
+    width: 85%; /* Ajusta el tamaño de las imágenes en la galería */
+    height: auto;
+    cursor: pointer; /* Cambia el cursor al pasar sobre la imagen */
+    transition: transform 0.2s; /* Añade una transición para un efecto suave al hacer hover */
+}
+.galeria img:hover {
+    transform: scale(1.10); /* Aumenta el tamaño ligeramente al pasar el cursor */
+}
+
+#inicio-btn {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            width: 80px; /* Mantener el tamaño igual al resto */
+            padding: 10px;
+            background-color: rgb(234, 8, 8);
+            color: #333;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 15px;
+        }
+        #inicio-btn:hover {
+            background-color: rgb(240, 248, 6);
+        }
+
+figure {
+            margin: 10px;
+            text-align: center;
+          }
+          
+ figcaption {
+            margin-top: 5px;
+            font-weight: bold;
+            color: rgb(4, 4, 4);
+          }
+          figcaption:hover {
+            background-color:rgb(240, 248, 6); ;
+          }
+
+          
+        

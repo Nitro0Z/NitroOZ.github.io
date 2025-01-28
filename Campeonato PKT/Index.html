@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campeonato PKT</title>
+    <link rel="stylesheet" href="CSS/Estilo1.css">
+</head>
+<body>
+    <header>
+        <h1>Campeonato PKT</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="Participantes.html">Participantes</a></li>
+            <li><a href="Calendario.html">Calendario</a></li>
+            <li><a href="Imagenes/Clasificacion.JPG" target="_blank">Clasificación</a></li>
+        </ul>
+    </nav>
+
+    <article>
+        <h2>Bienvenidos a la Página del Campeonato PKT</h2>
+        <h4>Noticias e Información sobre las carreras:</h4>
+        <p><span class="date">(27/01)</span> - El campeonato dará el pistoletazo de salida este fin de semana, Sábado 1 o Domingo 2, aún por confirmar.</class></p>
+        <p><span class="date">(27/01)</span> - La primera carrera será en el circuito de GoodWood, con el Alfa Romeo Veloce del año 67, no os dejéis engañar por el nombre, el coche no es veloz ni cuesta abajo.</class></p>
+    </article>
+
+    <footer>
+        <p>Podeis seguir las carreras en directo en el canal de Twich de Tabunet, <a href="https://www.twitch.tv/tabunet" target="_blank">https://www.twitch.tv/tabunet</a> y de Bily Raider, <a href="https://www.twitch.tv/bilraider57" target="_blank">https://www.twitch.tv/bilraider57</a></p>
+    </footer>
+
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/11.2.0/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.2.0/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyDfh2Bcu8VHW36gCZLclG8zC6oflsKRrpc",
+          authDomain: "campeonatopkt.firebaseapp.com",
+          projectId: "campeonatopkt",
+          storageBucket: "campeonatopkt.firebasestorage.app",
+          messagingSenderId: "544184609614",
+          appId: "1:544184609614:web:c36a67eec131f78e89cc1f",
+          measurementId: "G-G7WFVFGQ8F"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
+</body>
+</html>
